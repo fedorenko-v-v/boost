@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="42" height="44" viewBox="0 0 42 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#outer-glow-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite/>
+      <feComposite/>
+      <feComposite result="outerGlowBlur"/>
+      <feFlood flood-color="#3752ea" flood-opacity="0.5"/>
+      <feComposite operator="in" in2="outerGlowBlur"/>
+      <feBlend in2="SourceGraphic" result="outerGlow"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <path d="M21.039,26.975 C16.335,26.975 12.505,23.149 12.505,18.447 C12.505,13.742 16.335,9.915 21.039,9.915 C25.742,9.915 29.572,13.742 29.572,18.443 C29.572,23.149 25.742,26.975 21.039,26.975 ZM21.039,13.888 C18.524,13.888 16.477,15.934 16.477,18.447 C16.477,20.961 18.524,23.002 21.039,23.002 C23.554,23.002 25.601,20.956 25.601,18.447 C25.601,15.929 23.554,13.888 21.039,13.888 ZM21.039,21.736 C19.219,21.736 17.743,20.261 17.743,18.443 C17.743,16.624 19.219,15.150 21.039,15.150 C22.858,15.150 24.334,16.624 24.334,18.443 C24.334,20.261 22.858,21.736 21.039,21.736 ZM19.148,27.698 L15.370,34.105 L13.252,31.209 L9.688,30.760 L13.493,24.301 C14.855,26.215 16.727,27.367 19.148,27.698 ZM28.508,24.301 L32.318,30.760 L28.754,31.209 L26.636,34.105 L22.859,27.698 C25.274,27.367 27.147,26.215 28.508,24.301 Z" class="cls-1"/>
+</svg>

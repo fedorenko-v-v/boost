@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="47" height="41" viewBox="0 0 47 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter-chain-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite/>
+      <feComposite/>
+      <feComposite result="outerGlowBlur"/>
+      <feFlood flood-color="#e9e9e9" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="outerGlowBlur"/>
+      <feBlend in2="SourceGraphic" result="outerGlow"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="shadowed" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M33.454,13.232 C33.455,13.235 33.456,13.240 33.457,13.243 C34.533,13.115 35.584,12.811 36.566,12.336 C35.846,13.478 34.914,14.434 33.847,15.184 C33.848,15.213 33.856,15.240 33.856,15.269 C33.856,15.425 33.823,15.572 33.810,15.725 C33.830,15.757 33.856,15.786 33.856,15.825 C33.856,18.854 32.965,21.814 31.297,24.327 C26.661,31.316 17.308,33.175 10.409,28.479 C10.969,28.570 11.535,28.617 12.103,28.622 C14.562,28.622 16.830,27.813 18.676,26.451 C16.362,26.440 14.329,24.891 13.681,22.639 C14.478,22.830 15.295,22.803 16.076,22.612 C13.694,22.109 11.905,19.972 11.905,17.411 C11.905,17.384 11.913,17.358 11.913,17.331 C12.601,17.719 13.367,17.933 14.150,17.978 C12.796,17.017 11.905,15.430 11.905,13.628 C11.910,12.705 12.155,11.800 12.615,11.004 C15.332,14.254 19.266,16.171 23.448,16.348 C23.369,15.999 23.309,15.643 23.309,15.269 C23.309,12.320 25.670,9.928 28.582,9.928 C30.089,9.928 31.440,10.576 32.401,11.603 C33.579,11.394 34.718,10.988 35.753,10.365 C35.346,11.602 34.510,12.597 33.454,13.232 Z" class="cls-1"/>
+</svg>

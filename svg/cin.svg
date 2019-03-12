@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter-chain-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite/>
+      <feComposite/>
+      <feComposite result="outerGlowBlur"/>
+      <feFlood flood-color="#e9e9e9" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="outerGlowBlur"/>
+      <feBlend in2="SourceGraphic" result="outerGlow"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="shadowed" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M28.091,36.253 L17.907,36.253 C13.488,36.253 9.906,32.623 9.906,28.147 L9.906,17.831 C9.906,13.354 13.488,9.724 17.907,9.724 L28.091,9.724 C32.509,9.724 36.092,13.354 36.092,17.831 L36.092,28.147 C36.092,32.623 32.509,36.253 28.091,36.253 ZM33.909,17.831 C33.907,14.577 31.303,11.939 28.091,11.935 L17.907,11.935 C14.695,11.939 12.092,14.577 12.088,17.831 L12.088,28.147 C12.092,31.401 14.695,34.040 17.907,34.042 L28.091,34.042 C31.303,34.040 33.907,31.401 33.909,28.147 L33.909,17.831 ZM29.836,17.535 C29.034,17.535 28.382,16.875 28.382,16.062 C28.382,15.248 29.034,14.588 29.836,14.588 C30.639,14.588 31.291,15.248 31.291,16.062 C31.291,16.875 30.639,17.535 29.836,17.535 ZM22.999,29.621 C19.383,29.621 16.452,26.652 16.452,22.989 C16.452,19.326 19.383,16.356 22.999,16.356 C26.615,16.356 29.545,19.326 29.545,22.989 C29.545,26.652 26.615,29.621 22.999,29.621 ZM22.999,18.567 C20.589,18.567 18.635,20.547 18.635,22.989 C18.635,25.430 20.589,27.410 22.999,27.410 C25.408,27.407 27.360,25.430 27.363,22.989 C27.363,20.547 25.408,18.567 22.999,18.567 Z" class="cls-1"/>
+</svg>
